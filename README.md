@@ -24,14 +24,12 @@ pip install -r requirements.txt
 # run the python file
 python app.py
 ```
-**Copy the Url http://127.0.0.1:5000/ and run on your preferred browser**
+
+**The application can now be accessed at http://127.0.0.1:5000/ on your preferedd browser**
 ![WhatsApp Image 2021-11-12 at 00 19 18](https://user-images.githubusercontent.com/81116984/141352783-f4eb5a8b-5a86-4c09-a707-93fa50f0b5f8.jpeg)
 
 
-
-
-## Plant Disease Detection
-
+## Plant Disease Detector
 
 Disease detection in plants plays an important role in agriculture as farmers have often to decide
 whether the crop they are harvesting is good enough. It is of utmost importance to take these seriously
@@ -55,12 +53,6 @@ This dataset is recreated using offline augmentation from the original dataset. 
 ![data.jpeg](https://www.dropbox.com/s/mf18plqppjt4og2/data.jpeg?dl=0&raw=1)![data1.jpeg](https://www.dropbox.com/s/3b5yvbm9gb74r8j/data1.jpeg?dl=0&raw=1)
 
 
-
-
-
-
-
-
 ## Model architecture 
 
 We used VGG19 for enhancing the accuracy of our model.
@@ -69,7 +61,6 @@ We used VGG19 for enhancing the accuracy of our model.
 ## Loss and accuracy plot
 
 ![Capture (2).PNG](https://www.dropbox.com/s/nxlll3vijl8ejkq/Capture%20%282%29.PNG?dl=0&raw=1)![Capture (1).PNG](https://www.dropbox.com/s/7c4upiiummo7rvp/Capture%20%281%29.PNG?dl=0&raw=1)
-
 
 
 ## Results
@@ -82,33 +73,27 @@ Accuracy 85%
 
 ![MyVideo_1](https://user-images.githubusercontent.com/83203229/141359598-29e2f040-c0b0-4a78-907a-43f2f8e040d0.gif)
 
-
-
 ## DONUT CHART OF ACCURACY TABLE ->
 ![accuracyy1.png](https://www.dropbox.com/s/8yu15ixi1b4qol2/accuracyy1.png?dl=0&raw=1)
 
-## Conclusion 
-
-The model was successfully able to determine whether the plant whose image is provided has the disease or not and if yes,which disease the plant is suffering from.
-
-Knowing if the plant is suffering with a disease we can conclude which pesticide should be selected for its further prevention.
-
 ## Challenges we ran into
-1. Faced Diffilculty in finding a appropriate Data-set with large number of images
-2. As a newbie to Machine learning domain it is very difficult to work with huge number of funtions and libraries.3)As we have used VGG 19 architure so most of the common inbuilt functions are not working , we have encounterd with number of errors , So finding new functions and there respective libraries is quite a troublesome.
-3. As we have used VGG 19 architure so most of the common inbuilt functions are not working , we have encounterd with number of errors , So finding new functions and there respective libraries is quite a troublesome.
-4. Faced Pixel Related issue for showing false result for Feed images
-5. Had Trouble in deployment of our model on website , and linking backend with  the frontend.
+1. Difficulty in finding an appropriate dataset with a large number of images.
+2. Challenges faced as a newcomer to the Machine Learning domain, including working with numerous functions and libraries.
+3. Encountered errors and difficulties due to the usage of VGG-19 architecture, requiring the search for alternative functions and their corresponding libraries.
+4. Issues related to pixel manipulation resulting in inaccurate results for certain feed images.
+5. Troubles experienced during the deployment of the model on a website and establishing a connection between the backend and frontend components.
 
 ## Contributors
 
-Abhishek
-Shushant
-Siddhant
+[Abhishek]
+[Shushant]
+[Siddhant]
 
 
 ## Conclusion 
 
-The model was successfully able to determine whether the plant whose image is provided has the disease or not and if yes,which disease the plant is suffering from.
+Based on the provided image of a plant, the model has successfully determined whether the plant has a disease or not. If a disease is detected, the model can also identify the specific disease that the plant is suffering from.
 
-Knowing if the plant is suffering with a disease we can conclude which pesticide should be selected for its further prevention.
+Knowing whether the plant is affected by a disease allows us to make informed decisions regarding the selection of an appropriate pesticide for prevention and treatment.
+
+By leveraging the model's accurate diagnosis of the plant's health condition, we can effectively address the specific disease and take necessary measures to protect and maintain the plant's well-being.

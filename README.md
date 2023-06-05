@@ -16,7 +16,7 @@ By deploying an automated system based on deep learning and computer vision tech
 </br>
 ```bash
 # clone the repo
-git clone https://github.com/NischayGoyal1/WhatThe_hAIck.git .
+git clone https://github.com/meziyum/Plant-Disease-Detector-using-VCG-19 .
 
 # install dependecies
 pip install -r requirements.txt

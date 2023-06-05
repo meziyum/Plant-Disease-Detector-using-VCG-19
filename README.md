@@ -78,9 +78,11 @@ Accuracy 85%
 
 ## Contributors
 
-[Abhishek]
-[Shushant]
-[Siddhant]
+Abhishek
+
+Shushant
+
+Siddhant
 
 
 ## Conclusion
